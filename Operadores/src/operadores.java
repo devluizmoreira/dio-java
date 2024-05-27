@@ -25,18 +25,22 @@ public class operadores {
         //Concatenação de números e caracteres 
         String concatenacao = "?";
         
+        //Enquanto temos apenas números na expressão o operador funciona como adição
+        //Após aparecer um caracter o operador concatena o restante dos valores na expressão        
             concatenacao = 1+1+1+"1";
                 System.out.println(concatenacao);
                 
+        //Ao aparecer um caracter logo no inicio o resultado do restante da operação
+        //Será uma string concatenada  
+        // Segue nos 3 próximos exemplos                
             concatenacao = 1+"1"+1+1;
                 System.out.println(concatenacao);
-
             concatenacao = 1+"1"+1+"1";
                 System.out.println(concatenacao);
-
             concatenacao = "1"+1+1+1;
                 System.out.println(concatenacao);
-                
+        //Nesse caso, como aparece uma expressão separada, o resultado é a concatenação
+        //Do primeiro valor com o resultado da soma do que está em parenteses
             concatenacao = "1"+(1+1+1);
                 System.out.println(concatenacao);
     }   
