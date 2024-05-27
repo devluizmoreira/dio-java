@@ -16,6 +16,28 @@ public class operadores {
         int modulo = 18%3;
         double resultado = (10*7) + (20/4);
 
+        
 
-    }
+        // A utilização do operador + em variáveis string realizará a concatenação das palavras
+        String nomeCompleto = "Luiz" + " " + "Moreira";
+        System.out.println(nomeCompleto);
+
+        //Concatenação de números e caracteres 
+        String concatenacao = "?";
+        
+            concatenacao = 1+1+1+"1";
+                System.out.println(concatenacao);
+                
+            concatenacao = 1+"1"+1+1;
+                System.out.println(concatenacao);
+
+            concatenacao = 1+"1"+1+"1";
+                System.out.println(concatenacao);
+
+            concatenacao = "1"+1+1+1;
+                System.out.println(concatenacao);
+                
+            concatenacao = "1"+(1+1+1);
+                System.out.println(concatenacao);
+    }   
 }
